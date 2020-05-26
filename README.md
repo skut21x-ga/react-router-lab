@@ -1,10 +1,8 @@
-# National Parks DB
+# National Parks Database
 
-A React App created using react-router and a third-party API that I created for a General Assembly (GA) lab.
+A React App created using react-router and a third-party API that I created for a General Assembly (GA) lab. This website lists all of the National Parks using a [mockup](https://drive.google.com/file/d/1DJS8ysB1N9Kp89_V_loagQiFNU_4jZoN/view?usp=sharing) provided by GA.
 
-#### Design
-
-I built out a website listing all of the National Parks using a [mockup](https://drive.google.com/file/d/1DJS8ysB1N9Kp89_V_loagQiFNU_4jZoN/view?usp=sharing) provided by GA.
+##### NOTE: The official National Parks API can be quite unreliable in terms of load-time and fetching data succesfully.
 
 ### Part I: [React Router](part-i.md)
 
