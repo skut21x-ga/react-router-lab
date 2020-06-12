@@ -18,7 +18,7 @@ class ParkPage extends Component {
       postalCode: "",
       Directions: "",
       ParkImages: [],
-      parkCode: this.props.match.params.parkCode
+      parkCode: this.props.match.params.parkCode,
     };
   }
   componentDidMount() {
@@ -31,8 +31,8 @@ class ParkPage extends Component {
     console.log("hello");
 
     fetch(fullurl)
-      .then(res => res.json())
-      .then(res => {
+      .then((res) => res.json())
+      .then((res) => {
         // console.log(res);
         this.setState({
           park: res.data[0],
@@ -46,12 +46,12 @@ class ParkPage extends Component {
           postalCode: res.data[0].addresses[0].postalCode,
           Directions: res.data[0].directionsInfo,
           ParkImages: res.data[0].images,
-          ParkName: res.data[0].name
+          ParkName: res.data[0].name,
         });
       });
   }
   render() {
-    let parkImages = this.state.ParkImages.map(image => {
+    let parkImages = this.state.ParkImages.map((image) => {
       return <img src={image.url} className="ImageBox" />;
     });
     console.log(this.state.Directions);
@@ -82,7 +82,7 @@ class ParkPage extends Component {
           <div className="ReadMoreButton">Read More</div>
         </div>
         <div className="ParkImageContainer">
-          <div className="ParkImageHeader">Images</div>
+          <div className="ParkImageHeader" />
           <div className="ParkImageBoxes">{parkImages}</div>
         </div>
         <Link to="/">

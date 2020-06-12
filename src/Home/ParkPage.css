@@ -32,7 +32,6 @@
   text-align: left;
   margin-top: -40px;
   font-size: 30px;
-  width: 600px;
   color: white;
 }
 
@@ -137,6 +136,7 @@
     background-color: black;
     padding-right: 0px;
     padding-left: 0px;
+    display: flex;
   }
 
   .ParkImageBoxes {
@@ -168,7 +168,8 @@
 
   .FooterLogo {
     height: 50px;
-    margin-left: 50px;
+
+    margin-left: 25px;
   }
 
   .ParkImageContainer {
@@ -184,7 +185,8 @@
     width: 80vw;
   }
 
-  .ParkImageBoxes {
+  .HomeLink {
+    margin-left: -15px;
   }
 
   /* .ParkMainImage { */

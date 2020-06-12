@@ -12,7 +12,7 @@ class App extends Component {
         <nav>
           <Link to="/">
             <h1 className="topbar">
-              <h1 className="topbartext">National Parks List</h1>
+              <h1 className="topbartext">National Parks Database</h1>
             </h1>
           </Link>
         </nav>
