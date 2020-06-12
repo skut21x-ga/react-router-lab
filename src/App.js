@@ -11,14 +11,16 @@ class App extends Component {
       <div className="site">
         <nav>
           <Link to="/">
-            <h1 className="topbar">National Parks List</h1>
+            <h1 className="topbar">
+              <h1 className="topbartext">National Parks List</h1>
+            </h1>
           </Link>
         </nav>
         <main>
           <Route path="/" exact component={Home} />
           <Route
             path="/park/:parkCode"
-            render={routerProps => (
+            render={(routerProps) => (
               <ParkPage {...routerProps} {...this.state} />
             )}
           />

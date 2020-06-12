@@ -113,3 +113,81 @@
   margin-bottom: 40px;
   font-size: 11px;
 }
+
+.AllParks {
+  display: flex;
+  flex-flow: wrap;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 20px 15px 10px 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ParkNameHeader {
+  text-shadow: 2px 2px 2px black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .topbar,
+  .Footer {
+    width: 100vw;
+    padding-left: 0px;
+    margin-left: 0;
+    background-color: black;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ParkImageBoxes {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .topbartext {
+    margin-left: 50px;
+  }
+
+  nav {
+    background-color: black;
+  }
+
+  .ParkDescriptionBox {
+    width: 100vw;
+    padding-left: 0px;
+    margin-left: 0;
+    background-color: black;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ParkDescription {
+    margin-left: 50px;
+  }
+
+  .FooterLogo {
+    height: 50px;
+    margin-left: 50px;
+  }
+
+  .ParkImageContainer {
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  .ParkImageHeader {
+    margin-left: 25px;
+  }
+
+  .ParkDescription {
+    width: 80vw;
+  }
+
+  .ParkImageBoxes {
+  }
+
+  /* .ParkMainImage { */
+  /* width: 100vw; */
+  /* } */
+}
